@@ -10,9 +10,9 @@ using namespace std;
 
 int main() 
 {
- 
-           T1.pushToTree();
-           T1.print();
+    BSTree<string> T1;
+    T1.pushToTree();
+    T1.print();
   
     return 0;
 }
